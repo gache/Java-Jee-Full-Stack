@@ -19,8 +19,9 @@
         <label for="">Non</label><input type="radio" value="non" name="client"><br>
         <input type="submit" value="Envoyer"> <input type="reset" value="Annuler">
     </form>
+    <br>
     <hr>
-    <!-- formulaire  avec un tableu -->
+    <!-- formulaire à l'interieur de ma balise table -->
     <form action="http://localhost:888/form" method="GET">
         <table>
             <tr>
@@ -37,12 +38,30 @@
                     Oui<input type="radio" value="oui" name="client"> Non <input type="radio" value="non" name="client">
                 </td>
             </tr>
+
+            <tr>
+                <td> Choisir le jour </td>
+                <td>
+                    <select name="jour" id="">
+
+                        <!-- Pour choisir un jour de manière dynamique on met selected -->
+                        <option></option>
+                        <option value="1">Lundi</option>
+                        <option value="2">Mardi</option>
+                        <option value="3">Mercredi</option>
+                        <option value="4">Jeudi</option>
+                        <option value="5">Vendredi</option>
+                        <option value="6">Samedi</option>
+                        <option value="7">Dimache</option>
+                    </select>
+                </td>
+            </tr>
             <tr>
                 <td><input type="submit" value="Envoyer"></td>
                 <td><input type="reset" value="Annuler"> </td>
             </tr>
         </table>
-    </form>
+    </form> <br>
 
 </body>
 
