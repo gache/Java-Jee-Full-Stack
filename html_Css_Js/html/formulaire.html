@@ -11,7 +11,7 @@
     <!-- <form action="" method="">
         <input type="text, password, checkbox, radio, submit, reset, hidden, image"> [value = "valeur"], [size ="taille1[,taille2]" ], [maxlength = "longueur" ][checked]
     </form> -->
-
+    <!-- formulaire  -->
     <form action="http://localhost:888/form" method="GET">
         <label for="">Entrez votre nom:</label> <input type="text" name="nom"><br>
         <label for="">Entrez votre adress e-mail:</label> <input type="email" name="email"> <br>
@@ -19,6 +19,31 @@
         <label for="">Non</label><input type="radio" value="non" name="client"><br>
         <input type="submit" value="Envoyer"> <input type="reset" value="Annuler">
     </form>
+    <hr>
+    <!-- formulaire  avec un tableu -->
+    <form action="http://localhost:888/form" method="GET">
+        <table>
+            <tr>
+                <td>Entrez votre nom:</td>
+                <td><input type="text" name="nom"></td>
+            </tr>
+            <tr>
+                <td>Entrez votre adress e-mail:</td>
+                <td><input type="email" name="email"></td>
+            </tr>
+            <tr>
+                <td>Etes-vous client de la fnac?</td>
+                <td>
+                    Oui<input type="radio" value="oui" name="client"> Non <input type="radio" value="non" name="client">
+                </td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Envoyer"></td>
+                <td><input type="reset" value="Annuler"> </td>
+            </tr>
+        </table>
+    </form>
+
 </body>
 
 </html>
