@@ -1,0 +1,19 @@
+div[class^="br"] {
+    color: red;
+}
+
+div[class*="t"] {
+    color: green;
+}
+
+ol li:nth-last-child(2) {
+    color: red;
+}
+
+ol li:nth-child(3) {
+    color: violet;
+}
+
+input[type=checkbox]:checked+label {
+    color: red;
+}

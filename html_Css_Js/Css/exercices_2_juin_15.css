@@ -1,0 +1,48 @@
+table,
+tr,
+td,
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+
+/* table tr:first-child {
+    background-color: red;
+}
+
+table tr:last-child {
+    background-color: royalblue;
+} */
+
+
+/* pour faire le soulignement ou mettre un background-color à caque case
+ odd impaire
+even paire 
+voir ce page https://www.marevueweb.com/css-html/liste-nth-child-propriete/
+*/
+
+table tr:nth-child(odd) {
+    background-color: yellow;
+}
+
+button,
+input[type=checkbox] {
+    margin: 10px;
+    padding: 10px;
+}
+
+button:enabled {
+    background-color: royalblue;
+}
+
+button:disabled {
+    background-color: red;
+    color: white;
+}
+
+input[type=checkbox]:not(:checked)+label {
+    color: red;
+    font-size: 70px;
+}
