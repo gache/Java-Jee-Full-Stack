@@ -1,8 +1,28 @@
- h2 {
-     font-family: Verdana;
-     font-size: 30px;
- }
- 
- p {
-     background: yellow;
- }
+h2 {
+    font-family: Verdana;
+    font-size: 30px;
+}
+
+p.info {
+    background: yellow;
+}
+
+
+/*  Le page est lu de haute en bas la dernière ligne du code ou balise va s'imposer avec ces parametres */
+
+
+/* En Css il y a de prioritaire la regle  de prioritaite s'applique 
+d'abord 
+On compte le nombre d'ID => priorité au nombre le plus élevé
+On compte le nombre de classes et pseudo-classes => priorité au nombre le plus élevé
+On compte le nombre d'éléments et pseudo-éléments => priorité au nombre le plus élevé
+On ignore le sélecteur universel (*)
+ */
+
+#paragraphe2 {
+    color: red;
+}
+
+ul li a {
+    color: yellow;
+}

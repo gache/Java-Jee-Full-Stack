@@ -1,0 +1,25 @@
+/*  je dis que mon P et la class rouge je vais appliquer ce style */
+
+p.rouge {
+    color: red;
+}
+
+.vert {
+    color: green;
+}
+
+.noir {
+    color: black;
+}
+
+
+/* je dis que ma div et la class code je vais appliquer ce style */
+
+div.code,
+div.exemple {
+    font-family: 'Courier';
+}
+
+ol li {
+    background: yellow;
+}
