@@ -1,0 +1,10 @@
+  #mabox {
+      width: 200px;
+      height: 200px;
+      border: 1px dotted black;
+      background-color: yellow;
+      overflow: auto;
+      /* word-wrap: break-word; */
+      /* text-overflow: ellipsis; */
+      /* hyphens: auto; */
+  }
