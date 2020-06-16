@@ -1,0 +1,37 @@
+/* mettre un couleur de fond */
+
+
+/* body {
+    background-color: #1cc1c7
+} */
+
+
+/*  mettre de fond une image */
+
+:root {
+    height: 100vh;
+    background-image: url("../html/img/chat2.jpg");
+    background-repeat: no-repeat;
+    /* background-repeat prend comme valeur
+    no-repeat l'image ne repete pas 
+    repeat l'image se repete
+    repeat-y l'image se repete dans l'axe y 
+    repeat-x l'image se repete dans l'axe x */
+    background-position: right bottom;
+    /* prendre deux valuer pour mettre la position à l'image par contre il faut donner à la page une hauteur */
+    background: rgb(204, 252, 255) url("../html/img/chat2.jpg") center center no-repeat;
+    /* je peut mettre dans une seule ligne le fond de couleur, l'image que l'image ne repete pas en plus la position */
+    background-size: contain;
+    /* background-size définit la taille des images d'arrière-plan pour l'élément. */
+}
+
+
+/* Mettre une image qui prend tout l'espace qu'on lui demande */
+
+div {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background: rgb(204, 252, 255) url("../html/img/chat3.gif") center center no-repeat;
+    background-size: cover;
+}
