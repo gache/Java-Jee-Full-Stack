@@ -1,0 +1,22 @@
+/* avec root la police s'applique sur tout le document */
+
+:root {
+    font-family: 'erick_italic', sans-serif;
+}
+
+
+/* j'appelle mon font family qu'on a la telecharger */
+
+
+/* Je mets mon font family erick ou erick_italic que je viens de créer et je let mets  manuellement sur le root */
+
+
+/* @font-face {
+    font-family: 'erick';
+    src: url("./html/fonts/Roboto-Regular.ttf");
+} */
+
+@font-face {
+    font-family: 'erick_italic';
+    src: url("../html/fonts/Roboto-ThinItalic.ttf");
+}
