@@ -1,0 +1,22 @@
+/* Comme fonction le alpha dans rgba 
+Le canal alpha spécifie l'opacité de la couleur.*/
+
+div#alpha00 {
+    /* background-color: rgba(0, 255, 0, 0); */
+    background-color: hsla(120, 100%, 30%, 0)
+}
+
+div#alpha20 {
+    /* background-color: rgba(0, 255, 0, 0.2); */
+    background-color: hsla(120, 100%, 30%, 0.2)
+}
+
+div#alpha50 {
+    /* background-color: rgba(0, 255, 0, 0.5); */
+    background-color: hsla(120, 100%, 30%, 0.5)
+}
+
+div#alpha80 {
+    /* background-color: rgba(0, 255, 0, 0.8); */
+    background-color: hsla(120, 100%, 30%, 0.8)
+}
