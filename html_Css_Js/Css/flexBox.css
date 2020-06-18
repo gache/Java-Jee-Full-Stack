@@ -1,0 +1,11 @@
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    width: 50%;
+    font-size: 1.5emjustify-contente;
+}

@@ -1,0 +1,23 @@
+body {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+section div {
+    border: 1px solid royalblue;
+    height: 200px;
+    width: 200px;
+    line-height: 200px;
+    font-size: 2em;
+    display: inline-block;
+    margin: 10px;
+}
+
+div:nth-child(even) {
+    background-color: rgb(111, 199, 158);
+}
