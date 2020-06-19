@@ -43,3 +43,13 @@ a.type04:visited {
     color: red;
     text-decoration: none
 }
+
+div {
+    border: 2px solid indianred;
+    background-color: aqua;
+    text-align: center;
+    border-radius: 20px 7px 30px 10px;
+    color: #000000;
+    padding: 30px;
+    height: 100px;
+}
