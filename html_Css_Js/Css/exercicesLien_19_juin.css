@@ -1,0 +1,45 @@
+body {
+    margin: 30px;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+a.type1 {
+    color: red;
+    text-decoration: none;
+}
+
+a.type01:visited {
+    color: #00ff00;
+    text-decoration: underline
+}
+
+a.type2 {
+    color: blue;
+    text-decoration: overline;
+}
+
+a.type02:visited {
+    color: red;
+    text-decoration: none
+}
+
+a.type3 {
+    color: red;
+    text-decoration: overline, underline;
+}
+
+.type03:visited {
+    color: blue;
+    text-decoration: none
+}
+
+a.type4 {
+    color: blue;
+    text-decoration: overline;
+}
+
+a.type04:visited {
+    color: red;
+    text-decoration: none
+}
