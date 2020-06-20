@@ -4,14 +4,10 @@ body {
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
     width: 100vw;
-}
-
-header h1 {
     text-align: center;
 }
 
 section {
-    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -30,11 +26,9 @@ section figure img {
 }
 
 section figure figcaption {
-    text-align: center;
     font-size: 1.3em;
 }
 
 footer {
-    text-align: center;
     padding-top: 10px;
 }
