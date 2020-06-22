@@ -1,0 +1,20 @@
+div {
+    width: 200px;
+    height: 60px;
+    background-color: SkyBlue;
+    margin: 20px;
+    border-color: black;
+    border-width: 5px;
+    border-style: dashed;
+}
+
+
+/* La propriété transform modifie l'espace de coordonnées utilisé pour la mise en forme visuelle. Grâce à cette propriété, il est possible de translater les éléments, de les tourner, d'appliquer des homothéties, de les distordre pour en changer la perspective. */
+
+.droite {
+    transform: translate(200px, 0px) rotate(20deg) skew(10deg, 10deg);
+}
+
+.gauche {
+    transform: translate(-20px, 200px) scale(2);
+}

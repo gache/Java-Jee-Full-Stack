@@ -1,0 +1,29 @@
+/* La propriété transition est une propriété raccourcie pour les propriétés transition-property, transition-duration, transition-timing-function et transition-delay.
+Elle permet de définir la transition entre deux états d'un élément. Les différents états peuvent être définis à l'aide de pseudo-classes telles que :hover ou :active ou être définis dynamiquement avec JavaScript.
+
+ */
+
+.anim-couleur {
+    font-size: 40px;
+    /* transition: all 2s cubic-bezier(0.93, 0.28, 0, 0.52) */
+}
+
+.anim-couleur:hover {
+    color: red
+}
+
+div {
+    background-color: orangered;
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    transition: all 2s cubic-bezier(0.93, 0.28, 0, 0.52);
+}
+
+div:hover {
+    width: 60px;
+    border-radius: 5px;
+    background-color: yellow;
+    transform: rotateX(3);
+}
