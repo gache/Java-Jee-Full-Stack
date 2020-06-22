@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire en html</title>
+</head>
+
+<body>
+    <form name="MonFormulaire" method="post" action="traitement.php">
+        <fieldset>
+            <legend>Légende du &lt;fieldset&gt;</legend>
+            Contenu du du &lt;fieldset&gt;
+        </fieldset>
+        <br>
+        <label>Un champ texte</label>
+        <input type="text" name="Nom" value="valeur" required>
+        <br>
+
+        <label>Un bouton</label>
+        <input type="button" name="Nom" value="Légende du bouton">
+        <br>
+
+        <label>Un bouton image</label>
+        <input type="image" src="commande.jpg">
+        <br>
+
+        <label>Un champ mot de passe</label>
+        <input type="password" name="Nom" value="valeur par défaut">
+        <br>
+
+        <label>Une case à cocher</label>
+        <input type="checkbox" name="Nom" value="Valeur">
+        <label>Un bouton radio</label>
+        <input type="radio" name="Nom" value="Valeur">
+        <br>
+
+        <label>Des boutons &lt;submit&gt; et &lt;reset&gt;</label>
+        <input type="submit" name="Nom" value="Envoyer">
+        <input type="reset" name="Nom" value="Annuler">
+        <br>
+
+        <label>Champs spécialisés date et heure</label>
+        <input type="date" name="Nom" title="Date(aaaa-mm-jj)" value="2010-11-22">
+        <input type="time" name="Nom" title="Heure(hh-mm)" value="10:00">
+
+        <input type="datetime-local" id="meeting-time" name="meeting-time" value="2018-06-12T19:30" min="2018-06-07T00:00" max="2018-06-14T00:00">
+        <br>
+
+        <label>Saisie de nombres entiers autour de la valeur 55</label>
+        <input type="number" name="Nom" value="55" min="0" max="20" step="0.01">
+        <br>
+
+        <label>Une zone de texte spécialisée recherche</label>
+        <input type="search" name="Nom" list="datalist" value="Valeur par défaut">
+        <br>
+
+        <label>Un curseur pour sélectionner des valeurs numériques</label>
+        <input type="range" min="-500" max="500" value="0" step="10" name="Nom">
+        <br>
+
+        <label>Un bouton pour désigner un fichier local</label>
+        <input type="file" name="Nom">
+        <br>
+
+        <label>Une zone de saisie multiligne</label>
+        <textarea cols="40" rows="4">Texte par défaut</textarea>
+        <br>
+
+        <label>Liste déroulante et zone de liste</label>
+        <select name="Nom">
+      <option>Valeur 1</option>
+      <option>Valeur 2</option>
+      <option>Valeur 3</option>
+      <option>Valeur 4</option>
+      <option>Valeur 5</option>
+    </select>
+        <select size="2" name="Nom">
+      <option>Valeur 1</option>
+      <option>Valeur 2</option>
+      <option>Valeur 3</option>
+      <option>Valeur 4</option>
+      <option>Valeur 5</option>
+    </select>
+        <br>
+
+        <label>Résultat d'un calcul : </label>
+        <output name="resultat">123</output>
+    </form>
+
+</body>
+
+</html>
