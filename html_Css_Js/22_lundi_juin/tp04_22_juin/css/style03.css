@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: rgb(244, 157, 157);
+    color: white;
+}
+
+div {
+    border: 1px solid black;
+    text-align: center;
+    margin-left: 190px;
+    margin-right: 190px;
+    padding: 15px;
+    border-radius: 50px;
+    background-color: deepskyblue;
+    width: 250px;
+    background: url("../img/minion.jpg") repeat center;
+}
