@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/progress.css">
+    <title>La bar progress</title>
+</head>
+
+<body onload="init();">
+    <ul>
+        <li>
+            <label>Indéterminé </label>
+            <progress max="100"></progress>
+        </li>
+        <li>
+            <label>Progress = 30%</label>
+            <progress max="10" value="3"></progress>
+        </li>
+        <li>
+            <label>Progress = 100%</label>
+            <progress max="2345" value="2345"></progress>
+        </li>
+        <li>
+            <label>Progress contrôlé par JavaScript</label>
+            <progress max="100" id="progress-js"></progress>
+        </li>
+    </ul>
+
+    <!-- Meter -->
+    <h1>Meter</h1>
+    <ul class="compact">
+        <li>
+            <label>Indéterminé</label>
+            <meter></meter>
+        </li>
+        <li>
+            <label>Meter = 0.5</label>
+            <meter value="0.5"></meter>
+        </li>
+        <li>
+            <label>Meter = 0.2 avec low = 0.2</label>
+            <meter value="0.2" low="0.2"></meter>
+        </li>
+        <li>
+            <label>Meter = maximum</label>
+            <meter value="1"></meter>
+        </li>
+        <li>
+            <label>Meter contrôlé par JavaScript</label>
+            <meter min="0" max="100" id="meter-js"></meter>
+        </li>
+    </ul>
+
+    <!-- <script>
+        function init() {
+            var el = document.getElementById('progress-js');
+            el.setAttribute("value", "65");
+        }
+    </script> -->
+
+    <script>
+        function init() {
+            var el = document.getElementById('meter-js');
+            el.setAttribute("value", "65");
+        }
+    </script>
+
+</body>
+
+</html>

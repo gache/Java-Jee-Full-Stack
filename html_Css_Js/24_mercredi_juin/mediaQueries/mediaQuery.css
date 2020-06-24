@@ -1,0 +1,29 @@
+div {
+    border: dotted 1px #666;
+    padding: 5px 10px;
+    margin: 40px;
+}
+
+@media (max-device-width: 480px) {
+    .iphone {
+        background: red;
+    }
+}
+
+@media (max-width: 600px) {
+    .inf600 {
+        background: red;
+    }
+}
+
+@media (min-width: 900px) {
+    .sup900 {
+        background: red;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+    .de600a900 {
+        background: red;
+    }
+}
