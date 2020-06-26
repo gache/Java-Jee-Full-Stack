@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercices Js validation Password</title>
+    <style>
+        input {
+            outline: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form action="">
+        <div>
+            <label for="pwd">Password</label>
+            <input type="password" name="pwd" id="pwd">
+        </div>
+        <div>
+            <label for="vpwd">Verification Password</label>
+            <input type="password" name="pwd_verif" id="pwd_verif" onkeyup="isSamePassword(this.form);">
+        </div>
+        <div>
+            <button type="submit" id="btn_submit" disabled>Valider</button>
+        </div>
+    </form>
+
+    <script src="./exercicesValidation.js"></script>
+</body>
+
+</html>
