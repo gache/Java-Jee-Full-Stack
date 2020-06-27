@@ -4,8 +4,8 @@ function isSamePassword(formulaire) {
   let pwdVerif = formulaire.pwd_verif.value;
   let btn = document.getElementById("btn_submit");
 
-  // Condition pour verifier si le mot de passe ont un minimun 6 caracter
-  if (pwdVerif.length > 5) {
+  // Condition pour verifier si le mot de passe a un minimun 6 caracter
+  if (pwd.length > 5) {
     /* condition pour savoir si le mot de passe  sont identique */
     if (pwd === pwdVerif) {
       console.log("ok");
@@ -14,10 +14,10 @@ function isSamePassword(formulaire) {
     } else {
       console.log("les mot de passe ne correspond pas");
       btn.disabled = true;
-      formulaire.pwd_verif.style.border = "2px solid red";
+      // formulaire.pwd_verif.style.border = "2px solid red";
     }
   } else {
     btn.disabled = true;
-    formulaire.pwd_verif.style.border = "2px solid red";
+    // formulaire.pwd_verif.style.border = "2px solid red";
   }
 }
