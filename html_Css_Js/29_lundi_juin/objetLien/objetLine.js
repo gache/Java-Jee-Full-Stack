@@ -1,0 +1,10 @@
+let lien = document.links[0];
+console.log(`Hash: ${lien.hash}`);
+console.log(`Host: ${lien.host}`);
+console.log(`Hostname: ${lien.hostname}`);
+console.log(`Href: ${lien.href}`);
+console.log(`Pathname: ${lien.pathname}`);
+console.log(`Port: ${lien.port}`);
+console.log(`Protocol: ${lien.protocol}`);
+console.log(`Search: ${lien.search}`);
+console.log(`Target: ${lien.target}`);
