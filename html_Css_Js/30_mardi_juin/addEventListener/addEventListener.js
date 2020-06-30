@@ -26,6 +26,7 @@ let paragraphes = document.getElementsByTagName("p");
 //   });
 // }
 
+//  autre façon de faire avec la variable
 var color = function() {
   test.style.color = "red";
 };

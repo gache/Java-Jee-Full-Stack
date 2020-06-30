@@ -8,226 +8,265 @@
     <title>Creation du formulaire depuis in site</title>
 </head>
 
-<body>
+<div class="container">
     <header>
         <h1>La technologie et vous</h1>
     </header>
-    <section class="container">
-        <div class="intro">
-            <details>
-                <summary>1.intro</summary>
-                <p>
-                    Bonjour, Le questionnaire auquel vous allez participer a été créé dans le cadre du développement d'une activité. Nous vous invitons à répondre le plus sérieusement possible aux questions qui vont vous être posées. Vos réponses ne seront traitées qu’à
-                    des fins statistiques et ce de manière totalement anonyme. Merci d’avance pour votre aide.
-                </p>
+    <section>
+        <div id="div1">
+            <h4>1.</h4>
+            <form action="" name="form1">
+                <fieldset>
+                    <p>
+                        <i>Q1. </i>Pouvez-vous citer spontanément 3 marques de produits électroniques audio (radio-réveil, enceinte Bluetooth, radio portable...) ?
+                    </p>
+                    <label for="marque1">Marque 1 :</label>
+                    <div>
+                        <input type="text" id="marque1" name="marque1">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <label for="marque2"><i>Q2. </i>Marque 2 :</label>
+                    <div>
+                        <input type="text" id="marque2" name="marque2">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <label for="marque3"><i>Q3. </i>Marque 3 :</label>
+                    <div>
+                        <input type="text" id="marque3" name="marque3">
+                    </div>
+                </fieldset>
+            </form>
         </div>
-        </details>
-
-
-        <details>
-            <summary>2</summary>
-            <div>
-                <form action="" name="form1"></form>
-                <div>
-                    <p>Q.1 Pouvez-vous citer spontanément 3 marques de produits électroniques audio (radio-réveil, enceinte Bluetooth, radio portable...) ?</p>
+        <div id="div2">
+            <h4>2.</h4>
+            <form action="" name="form4">
+                <fieldset>
+                    <p><i>Q4. </i>Parmi les marques ci-dessous, lesquelles connaissez-vous ?</p>
+                    <span>Plusieurs réponses possibles</span>
+                    <br>
                     <div>
-                        <label for="marque01">Marque 1:</label>
+                        <input type="checkbox" name="Sony" id="Sony" value="Sony">
+                        <label for="Sony">Sony</label>
                     </div>
-                    <input type="text" name="marque01">
+                    <div><input type="checkbox" value="Ibiza" name="Ibiza" id="Ibiza"><label for="Ibiza">Ibiza</label></div>
+                    <div><input type="checkbox" value="Jbl" name="Jbl" id="Jbl"><label for="Jbl">Jbl</label></div>
+                    <div><input type="checkbox" value="Tokai" name="Tokai" id="Tokai"><label for="Tokai">Tokai</label></div>
+                    <div><input type="checkbox" value="Big_ben" name="BigBen" id="BigBen"><label for="BigBen">Big ben</label></div>
+                    <div><input type="checkbox" value="Metronic" name="Metronic" id="Metronic"><label for="Metronic">Metronic</label></div>
+                    <div><input type="checkbox" value="Lg" name="Lg" id="Lg"><label for="Lg">Lg</label></div>
+                    <div><input type="checkbox" value="Muse" name="Muse" id="Muse"><label for="Muse">Muse</label></div>
+                    <div><input type="checkbox" value="Marshall" name="Marshall" id="Marshall"><label for="Marshall">Marshall</label></div>
+                    <div><input type="checkbox" value="Bose" name="Bose" id="Bose"><label for="Bose">Bose</label></div>
+                    <div><input type="checkbox" value="Grundig" name="Grundig" id="Grundig"><label for="Grundig">Grundig</label></div>
+                    <div><input type="checkbox" value="Mpman" name="Mpman" id="Mpman"><label for="Mpman">Mpman</label></div>
+                    <div><input type="checkbox" value="New_one" name="NewOne" id="NewOne"><label for="NewOne"> New one</label></div>
+                    <div><input type="checkbox" value="Ryght" name="Ryght" id="Ryght"><label for="Ryght">Ryght</label></div>
+                    <div><input type="checkbox" value="Thomson" name="Thomson" id="Thomson"><label for="Thomson">Thomson</label></div>
+                    <div><input type="checkbox" value="Philips" name="Philips" id="Philips"><label for="Philips">Philips</label></div>
+                    <div><input type="checkbox" value="Panasonic" name="Panasonic" id="Panasonic"><label for="Panasonic">Panasonic</label></div>
+                    <div><input type="checkbox" value="aucun" name="aucun" id="aucun"><label for="aucun">Je n'en connais aucune</label></div>
+                </fieldset>
+            </form>
+        </div>
+        <div id="div3">
+            <h4>3.</h4>
+            <form action="" name="form5">
+                <p>Supposons que vous souhaitiez acheter un nouvel équipement électronique audio.</p>
+                <fieldset>
+                    <p><i>Q5. </i>Comment vous renseigneriez-vous sur votre futur équipement électronique audio ?</p>
+                    <span>Plusieurs réponses possibles</span>
+                    <br>
+                    <div><input type="checkbox" value="Réseaux sociaux" name="reseau" id="reseau"><label for="reseau">Réseaux sociaux</label></div>
+                    <div><input type="checkbox" value="Bouche-à-oreille" name="bouche" id="bouche"><label for="bouche">Bouche-à-oreille</label></div>
+                    <div><input type="checkbox" value="Site internet" name="site" id="site"><label for="site">Site internet</label></div>
+                    <div><input type="checkbox" value="Magasin" name="magasin" id="magasin"><label for="magasin">Magasin</label></div>
                     <div>
-                        <label for="marque01">Marque 2:</label>
+                        <input type="checkbox" name="autre" id="autre" value="autre">
+                        <label for="autre">Autre(s), veuillez préciser :</label>
+                        <input type="text" name="autre_text">
                     </div>
-                    <input type="text" name="marque02">
-                    <div>
-                        <label for="marque01">Marque 3:</label>
+                </fieldset>
+            </form>
+        </div>
+        <div id="div4">
+            <h4>4.</h4>
+            <form action="" name="form6">
+                <fieldset>
+                    <p><i>Q6. </i>Connaissez-vous la marque de produits électroniques audio MUSE ?</p>
+                    <div><input type="radio" name="audioMuse" id="audioMuse1" value="oui"><label for="audioMuse1">Oui</label></div>
+                    <div><input type="radio" name="audioMuse" id="audioMuse2" value="non"><label for="audioMuse2">Non</label></div>
+                </fieldset>
+            </form>
+        </div>
+        <div id="div5">
+            <h4>5.</h4>
+            <form action="" name="form7">
+                <fieldset>
+                    <p><i>Q7.</i>Avez-vous déjà acheté un produit de la marque MUSE ?</p>
+                    <div><input type="radio" name="marqueMuse" id="marqueMuse1" value="oui"><label for="marqueMuse1">Oui</label></div>
+                    <div><input type="radio" name="marqueMuse" id="marqueMuse2" value="non"><label for="marqueMuse2">Non</label></div>
+                </fieldset>
+            </form>
+        </div>
+        <div id="div6">
+            <h4>6.</h4>
+            <form action="" name="form8">
+                <fieldset>
+                    <p><i>Q8.</i>Quel(s) produit(s) avez-vous acheté de la marque MUSE ?</p>
+                    <span>Plusieurs réponses possibles</span>
+                    <div><input type="checkbox" value="Radio-réveil" name="radio_reveil" id="radio_reveil"><label for="radio_reveil">Radio-réveil</label></div>
+                    <div><input type="checkbox" value="Radio" name="radio" id="radio"><label for="radio">Radio</label></div>
+                    <div><input type="checkbox" value="Lecteur radio ou CD" name="radio_cd" id="radio_cd"><label for="radio_cd">Lecteur radio ou CD</label>
                     </div>
-                    <input type="text" name="marque03">
-                </div>
-                </form>
-            </div>
-        </details>
-
-        <details>
-            <summary>3</summary>
-            <div>
-                <form action="" name="form2"></form>
-                <div>
-                    <p>Q.4 Parmi les marques ci-dessous, lesquelles connaissez-vous ?</p>
-                    <p>Plusieurs réponses possibles</p>
+                    <div><input type="checkbox" value="Enceinte Bluetooth" name="enceinte" id="enceinte"><label for="enceinte">Enceinte Bluetooth</label></div>
+                    <div><input type="checkbox" value="Casque" name="casque" id="casque"><label for="casque">Casque</label></div>
+                    <div><input type="checkbox" value="Tour multimédia" name="tour" id="tour"><label for="tour">Tour multimédia</label></div>
+                    <div><input type="checkbox" value="Party Box" name="party_box" id="party_box"><label for="party_box">Party Box</label></div>
+                    <div><input type="checkbox" value="Chaîne HIFI" name="chaine_hifi" id="chaine_hifi"><label for="chaine_hifi">Chaîne HIFI</label></div>
+                    <div><input type="checkbox" value="Platine vinyle" name="platine" id="platine"><label for="platine">Platine vinyle</label></div>
+                    <div><input type="checkbox" value="Barre de son" name="barre_son" id="barre_son"><label for="barre_son">Barre de son</label></div>
+                    <div><input type="checkbox" value="Lecteur DVD portable" name="dvd_portable" id="dvd_portable"><label for="dvd_portable">Lecteur DVD
+                            portable</label></div>
+                    <div><input type="checkbox" value="Autoradio" name="autoradio" id="autoradio"><label for="autoradio">Autoradio</label></div>
+                    <div><input type="checkbox" value="TV portable" name="tv_portable" id="tv_portable"><label for="tv_portable">TV portable</label></div>
+                    <div><input type="checkbox" value="Vidéo embarquée" name="video_emb" id="video_emb"><label for="video_emb">Vidéo embarquée</label></div>
+                </fieldset>
+            </form>
+        </div>
+        <div id="div7">
+            <h4>7.</h4>
+            <form action="" name="form9">
+                <fieldset>
+                    <p><i>Q9. </i>Quelle note attribuez-vous à la marque MUSE concernant la qualité de ses produits ?</p>
+                    <span>Utilisez les notes de 1 à 5, 1 étant la moins bonne note et 5 la meilleure</span>
+                    <br>
+                    <span>Les notes intermédiaires vous permettent de nuancer votre jugement.</span>
+                    <br>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="table_no_border"></th>
+                                <th>1 = Mauvaise</th>
+                                <th>2</th>
+                                <th>3</th>
+                                <th>4</th>
+                                <th>5 = Bonne</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>La qualité des produits</td>
+                                <td><input type="radio" name="qualite_produits" value="1"></td>
+                                <td><input type="radio" name="qualite_produits" value="2"></td>
+                                <td><input type="radio" name="qualite_produits" value="3"></td>
+                                <td><input type="radio" name="qualite_produits" value="4"></td>
+                                <td><input type="radio" name="qualite_produits" value="5"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </fieldset>
+            </form>
+            <form action="" name="form10">
+                <fieldset>
+                    <p><i>Q10. </i>Concernant le design de ses produits ?</p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="table_no_border"></th>
+                                <th>1 = Mauvais</th>
+                                <th>2</th>
+                                <th>3</th>
+                                <th>4</th>
+                                <th>5 = Bon</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Le design des produits</td>
+                                <td><input type="radio" name="design_produits" value="1"></td>
+                                <td><input type="radio" name="design_produits" value="2"></td>
+                                <td><input type="radio" name="design_produits" value="3"></td>
+                                <td><input type="radio" name="design_produits" value="4"></td>
+                                <td><input type="radio" name="design_produits" value="5"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </fieldset>
+            </form>
+            <form action="" name="form11">
+                <fieldset>
+                    <p><i>Q11. </i>Concernant le prix de ses produits ?</p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="table_no_border"></th>
+                                <th>1 = Cher</th>
+                                <th>2</th>
+                                <th>3</th>
+                                <th>4</th>
+                                <th>5 = Bon Marché</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>La prix des produits</td>
+                                <td><input type="radio" name="prix_produits" value="1"></td>
+                                <td><input type="radio" name="prix_produits" value="2"></td>
+                                <td><input type="radio" name="prix_produits" value="3"></td>
+                                <td><input type="radio" name="prix_produits" value="4"></td>
+                                <td><input type="radio" name="prix_produits" value="5"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </fieldset>
+            </form>
+        </div>
+        <div id="div8">
+            <h4>8.</h4>
+            <form action="" name="form12">
+                <fieldset>
+                    <p><i>Q12. </i>Recommanderiez-vous la marque audio MUSE à un ami ?</p>
                     <div>
-                        <input type="checkbox" name="c1">
-                        <label for="">sony</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="c2">
-                        <label for="">Ibiza</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="c3">
-                        <label for="">Jbl</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="c4">
-                        <label for="">Tokay</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="c5">
-                        <label for="">Big Ben</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="c6">
-                        <label for="">Metronic</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="c7">
-                        <label for="">Lg</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="c8">
-                        <label for="">Muse</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="c9">
-                        <label for="">Marshall</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="c10">
-                        <label for="">Bose</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="c11">
-                        <label for="">Grundig</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="c12">
-                        <label for="">Mpman</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="c13">
-                        <label for="">New one</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="c14">
-                        <label for="">Ryght</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="c15">
-                        <label for="">Thomson</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="c16">
-                        <label for="">Philips</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="c17">
-                        <label for="">Panasonic</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="c18">
-                        <label for="">Je n'en connais aucune</label>
-                    </div>
-                </div>
-                </form>
-            </div>
-        </details>
-        <details>
-            <summary>4</summary>
-            <div>
-                <div>
-                    <p>Supposons que vous souhaitiez acheter un nouvel équipement électronique audio.</p>
-                </div>
-                <div>
-                    <p>Q5.Comment vous renseigneriez-vous sur votre futur équipement électronique audio ?</p>
-                    <p>Plusieurs réponses possibles</p>
-
-                </div>
-                <form action="" name="form3">
-                    <div>
-                        <input type="checkbox" name="sociaux">
-                        <label for="">Réseaux sociaux</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="bao">
-                        <label for="">Bouche-à-oreille </label>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="siteIn">
-                        <label for="">Site internet</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="mag">
-                        <label for="">Magasin</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="autre">
-                        <label for="">Autre, veuillez préciser : </label>
-                        <input type="text">
-                    </div>
-                </form>
-            </div>
-        </details>
-
-        <details>
-            <summary>5</summary>
-            <div>
-                <div>
-                    <p>Q6.Connaissez-vous la marque de produits électroniques audio MUSE ?</p>
-                </div>
-                <form action="" name="form3">
-                    <div>
-                        <input type="checkbox" name="muse">
-                        <label for="">Oui</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="muse">
-                        <label for="">Non </label>
-                    </div>
-                </form>
-            </div>
-        </details>
-        <details>
-            <summary>6</summary>
-            <div>
-                <div>
-                    <p>Q7.Avez-vous déjà acheté un produit de la marque MUSE ?</p>
-                </div>
-                <form action="" name="form4">
-                    <div>
-                        <input type="checkbox" name="muse1">
-                        <label for="">Oui</label>
+                        <input type="radio" name="recommandation" id="r1" value="oui">
+                        <label for="r1">Oui</label>
                     </div>
                     <div>
-                        <input type="checkbox" name="muse1">
-                        <label for="">Non </label>
+                        <input type="radio" name="recommandation" id="r2" value="non">
+                        <label for="r2">Non</label>
                     </div>
-                </form>
-            </div>
-        </details>
-        <details>
-            <summary>7</summary>
-            <div>
-                <div>
-                    <p>Q8.Quel(s) produit(s) avez-vous acheté de la marque MUSE ?</p>
-                    <p>Plusieurs réponses possibles</p>
-                </div>
-                <form action="" name="form4">
-                    <div>
-                        <input type="checkbox" name="muse2">
-                        <label for="">Oui</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="muse2">
-                        <label for="">Non </label>
-                    </div>
-                </form>
-            </div>
-        </details>
-
-
+                </fieldset>
+            </form>
+        </div>
+        <div id="div9">
+            <h4>9.</h4>
+            <form action="" name="form13">
+                <fieldset>
+                    <p><i>Q13. </i>Quelle est votre catégorie socioprofessionnelle ?</p>
+                    <div><input type="radio" value="Agriculteur" name="categorie" id="agriculteur"><label for="agriculteur">Agriculteur</label></div>
+                    <div><input type="radio" value="Artisan" name="categorie" id="artisan"><label for="artisan">Artisan</label></div>
+                    <div><input type="radio" value="Commerçant" name="categorie" id="c1"><label for="c1">Commerçant</label></div>
+                    <div><input type="radio" value="Chef d’entreprise" name="categorie" id="c2"><label for="c2">Chef d’entreprise</label></div>
+                    <div><input type="radio" value="Profession libérale" name="categorie" id="c3"><label for="c3">Profession libérale</label></div>
+                    <div><input type="radio" value="Cadre ou profession intellectuelle supérieure" name="categorie" id="c4"><label for="c4">Cadre ou profession
+                            intellectuelle supérieure</label></div>
+                    <div><input type="radio" value="Profession intermédiaire" name="categorie" id="c5"><label for="c5">Profession intermédiaire</label></div>
+                    <div><input type="radio" value="Employé" name="categorie" id="c6"><label for="c6">Employé</label></div>
+                    <div><input type="radio" value="Ouvrier" name="categorie" id="c7"><label for="c7">Ouvrier</label></div>
+                    <div><input type="radio" value="Retraité" name="categorie" id="c8"><label for="c8">Retraité</label></div>
+                    <div><input type="radio" value="Demandeur d’emploi" name="categorie" id="c9"><label for="c9">Demandeur d’emploi</label></div>
+                    <div><input type="radio" value="Homme ou Femme au foyer" name="categorie" id="c10"><label for="c10">Homme ou Femme au foyer</label></div>
+                    <div><input type="radio" value="Etudiant, lycéen" name="categorie" id="c11"><label for="c11">Etudiant, lycéen</label></div>
+                    <div><input type="radio" value="Autre" name="categorie" id="c12"><label for="c12">Autre</label></div>
+                </fieldset>
+            </form>
+        </div>
+        <button onclick="validation();">Valider</button>
     </section>
+</div>
 
-
-    <script src="./formulaire.js"></script>
+<script src="./formulaire.js"></script>
 </body>
 
 </html>

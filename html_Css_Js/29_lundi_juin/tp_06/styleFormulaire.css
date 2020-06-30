@@ -16,20 +16,3 @@ header h1 {
 h4 {
     background-color: red;
 }
-
-
-/* 
-section {
-    display: flex;
-    flex-direction: column;
-}
-
-section div {
-    border: 1px solid indianred;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-items: center;
-    width: 50%;
-    height: 50%;
-    margin: 10px;
-} */
