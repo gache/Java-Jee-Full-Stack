@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LocalStorage</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Stokage Local Html5</h1>
+        </header>
+        <fieldset>
+            <h2>Entrez la donnée à stocker</h2>
+            <section>
+                <form action="" name="form">
+                    <div>
+                        <label for="name">Nom</label>
+                        <input type="text" name="name" id="name">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="donnee"> Donnée</label>
+                        <textarea name="donnee" id="donnee" cols="30" rows="10"></textarea>
+                    </div>
+                </form>
+                <div>
+                    <button type="button" id="lit">Lire</button>
+                    <button type="button" id="enregistre">Enregistre</button>
+                    <button type="button" id="effacer">Effacer</button>
+                    <button type="button" id="effacerTout">Effacer tout</button>
+
+                </div>
+
+        </fieldset>
+        </section>
+        <section style="border: 1px solid black;">
+
+            <h2>Données Stockées</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Nom</th>
+                        <th colspan="10">Valeur</th>
+                    </tr>
+                </thead>
+                <tbody id="stokage">
+                    <tr>
+                        <td>Deuxième</td>
+                        <td colspan="10"></td>
+                    </tr>
+                    <tr>
+                        <td>Premier</td>
+                        <td colspan="10"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </div>
+
+    <script src="./localStorage.js"></script>
+</body>
+
+</html>
