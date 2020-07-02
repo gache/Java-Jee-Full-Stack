@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    width: 100vw;
+}
+
+
+/* Mon container de ma page */
+
+.container {
+    width: 90%;
+}
+
+
+/*  mon tittre de ma page */
+
+header h1 {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+
+/*  La section de ma page  */
+
+section#photosCarousel {
+    display: flex;
+    width: 90%;
+}
+
+section#photosCarousel article figure {
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+section#photosCarousel figure img {
+    min-width: 360px;
+    max-width: 100%;
+}
+
+section#photosCarousel figure div {
+    padding: 10px;
+    text-align: center;
+}
+
+section#photosCarousel article figure figcaption {
+    padding: 10px;
+    text-align: center;
+}
+
+
+/*  Formulire  */
+
+section#formulaire div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 5px;
+    width: 90%;
+}
+
+section#formulaire form div input {
+    margin-top: 15px;
+    width: 79%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.3em;
+    border-radius: 15px;
+}
+
+section#formulaire form div textarea {
+    margin-top: 15px;
+    width: 79%;
+    height: 150px;
+    line-height: 50px;
+    font-size: 1.3em;
+    border-radius: 15px;
+}
+
+section#formulaire div label {
+    width: 30%;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 15px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+section#formulaire form div input:focus {
+    outline: none;
+    background-color: #91abbf;
+}
+
+section#formulaire form div textarea:focus {
+    outline: none;
+    background-color: #91abbf;
+}
+
+section#formulaire form div input::placeholder {
+    padding-left: 10px;
+}
+
+section#formulaire form div textarea::placeholder {
+    padding-left: 10px;
+}
+
+section#formulaire form div button {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: #1a5b87;
+    color: #b7e2ed;
+    font-size: 1.3em;
+    padding: 10px;
+    border-radius: 10px;
+}

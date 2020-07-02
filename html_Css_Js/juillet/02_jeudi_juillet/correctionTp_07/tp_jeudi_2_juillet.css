@@ -1,0 +1,130 @@
+:root {
+  min-width: 480px;
+}
+
+body {
+  width: 100vw;
+  margin: 0 auto;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #1e272e;
+  color: #d2dae2;
+  font-size: 20px;
+  font-family: "Dosis", sans-serif;
+}
+body div.container {
+  width: 90%;
+  margin: 0 auto;
+}
+body div.container header h1 {
+  letter-spacing: 3px;
+}
+body div.container section div#carousel {
+  overflow: hidden;
+  position: relative;
+  width: auto;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+body div.container section div#carousel ul {
+  -moz-box-orient: horizontal;
+  -webkit-box-orient: horizontal;
+  display: -moz-box;
+  display: -webkit-box;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+body div.container section div#carousel ul li {
+  display: flex;
+  max-height: 900px;
+  margin: 0 auto;
+  width: 100%;
+}
+body div.container section div#carousel ul li img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+body div.container section#articles {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+body div.container section#articles article {
+  min-width: 300px;
+  max-width: 33%;
+}
+body div.container section#articles article figure {
+  padding: 0;
+  margin: 0 auto;
+  position: relative;
+}
+body div.container section#articles article figure div.close {
+  background: rgba(210, 218, 226, 0.3) url(../img/close.svg) no-repeat center center;
+  background-size: cover;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+body div.container section#articles article figure:hover div.close {
+  filter: invert(1);
+}
+body div.container section#articles article figure div.chat {
+  margin: 10px;
+}
+body div.container section#articles article figure div.chat img {
+  width: 100%;
+  height: auto;
+}
+body div.container section form {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+body div.container section form div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 6px 0;
+  padding: 6px;
+}
+body div.container section form div label {
+  min-width: 200px;
+  width: calc(30% - (4px * 2));
+  max-width: 400px;
+}
+body div.container section form div input, body div.container section form div textarea, body div.container section form div button {
+  margin: 4px;
+  min-width: 300px;
+  width: calc(70% - (4px * 2));
+  max-width: 800px;
+  min-height: 30px;
+}
+body div.container section form div textarea {
+  height: 130px;
+  resize: vertical;
+}
+body div.container section form div button#save {
+  border: none;
+  outline: none;
+  background-color: #0fbcf9;
+}
+
+/*# sourceMappingURL=tp_jeudi_2_juillet.css.map */

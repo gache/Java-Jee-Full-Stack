@@ -1,0 +1,132 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    width: 90%
+}
+
+
+/* Mon container de ma page */
+
+.container {
+    width: 90%;
+}
+
+
+/*  mon tittre de ma page */
+
+header h1 {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+
+/*  La section de ma page photos */
+
+section#photosAjouter {
+    display: flex;
+    width: 90%;
+}
+
+section#photosAjouter article figure {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+section#photosAjouter figure img {
+    min-width: 600px;
+    max-width: 100%;
+}
+
+section#photosAjouter figure div {
+    padding: 10px;
+    text-align: center;
+}
+
+section#photosAjouter article figure figcaption {
+    padding: 10px;
+    text-align: center;
+}
+
+
+/*  Formulire  */
+
+section#formulaire form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 5px;
+    width: 100%;
+}
+
+section#formulaire form div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+section#formulaire form div input {
+    margin-top: 15px;
+    width: 76%;
+    height: auto;
+    line-height: 50px;
+    font-size: 1.3em;
+    border-radius: 15px;
+    min-width: 300px;
+}
+
+section#formulaire form div textarea {
+    margin-top: 15px;
+    width: 76%;
+    height: auto;
+    line-height: 50px;
+    font-size: 1.3em;
+    border-radius: 15px;
+    min-width: 300px;
+}
+
+section#formulaire div label {
+    text-transform: capitalize;
+    text-align: left;
+    padding-left: 10px;
+    min-width: 150px;
+    width: 20%;
+}
+
+section#formulaire form div input:focus {
+    outline: none;
+    background-color: #91abbf;
+}
+
+section#formulaire form div textarea:focus {
+    outline: none;
+    background-color: #91abbf;
+}
+
+section#formulaire form div input::placeholder {
+    padding-left: 10px;
+}
+
+section#formulaire form div textarea::placeholder {
+    padding-left: 10px;
+}
+
+section#formulaire form div button {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: #1a5b87;
+    color: #b7e2ed;
+    font-size: 1.3em;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
