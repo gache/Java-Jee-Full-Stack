@@ -1,0 +1,66 @@
+avec une troisième variable
+variables <= a, b entier
+A = 3
+B = 8
+A = A + B (3 + 8)
+B = A - B (11 - 8)
+A = A - B (11 - 3)
+
+
+avec les deux variable
+variables <= a, b entier
+A = 3
+B = 8 
+
+C = A 
+A = B 
+B = c 
+
+
+ algorithme demandeNomPrenom 
+variables nom, prenom : String
+Debut
+  ecrire("Entrer votre Nom")
+  lire(nom)
+  ecrire("Entrez votre prenom")
+  lire(prenom)
+  ecrire("Mon prenom et nom est:", nom, prenom )
+Fin
+
+//  Conditions
+algorithme numeroSaisie
+variable a int
+
+Debut
+  ecrire("Entrer un numero")
+  lire(a)
+  Si (a%3 = 0) alors
+  ecrire("Le numero: " a , "est divisible par 3")
+  Sinon
+    ecrire("Le numero: " a, "n'est pas divisble par 3")
+    
+  Fin_Si
+Fin
+
+algorithme prixPhotocopies
+
+variables prix : reel 
+variable numeroPhotocopie : entier
+ecrire("Entrer les nombres de photocopie")
+
+Debut
+Si(numeroPhotocopie < 10) alors
+prix = numeroPhotocopie * 0.5
+ecrire("Le prix a payé est: ", prix)
+Sinon  
+    Si ( numeroPhotocopie < 20 ) alors
+    prix = numeroPhotocopie * 0.4
+    ecrire("Le prix a payé est: ", prix)
+    Sinon
+    prix = numeroPhotocopie * 0.3
+    ecrire("Le prix a payé est: ", prix)
+    Fin_Si
+  
+Fin
+
+// Boucles
